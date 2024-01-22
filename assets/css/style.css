@@ -1,16 +1,19 @@
 /* #region Debug */
-.debug header{
+.debug header {
     /* background-color: red; */
     /* height: 200px; */
 }
-.debug main{
+
+.debug main {
     background-color: aqua;
     height: 800px;
 }
-.debug footer{
+
+.debug footer {
     background-color: green;
     height: 300px;
 }
+
 /* #endregion Debug */
 
 /* #region Utilities */
@@ -20,63 +23,82 @@
     --booleando-lighter: rgba(255, 255, 255, 1);
 }
 
-.container{
-    width: 80%;
+.container {
+    width: 70%;
     margin: auto;
-}   
+}
 
-.d-flex{
+.d-flex {
     display: flex;
 }
+
 /* #endregion Utilities */
 
 /* #region Common */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
+header {
     background-color: var(--booleando-primary);
-    height:50px;
-    position: sticky;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
-nav{
-    justify-content: space-between;
+nav {
     align-items: center;
+}
+
+main{
+    padding-top: 3rem;
+}
+
+footer{
+    background-color: var(--booleando-dark);
+    color: var(--booleando-lighter);
+}
+
+h4{
+    padding-bottom: 0.5rem;
 }
 /* #endregion Common */
 
 /* #region Header */
-.gender{
+.gender {
     display: flex;
-    list-style:none;
+    list-style: none;
     color: var(--booleando-lighter);
     gap: 1rem;
     width: 10%;
 }
 
-.logo{
-    height: 30px;
+.logo {
+    height: 50px;
     padding: 0.5rem;
 
 }
-.logo-box{
-    width: 70%;
+
+.logo-box {
+    width: 80%;
     text-align: center;
 }
-.icon{
+
+.icon {
     color: var(--booleando-lighter);
     gap: 0.5rem;
     width: 10%;
+    justify-content: end;
 }
+
 /* #endregion Header */
 
 /* #region main */
 
-.box{
+.box {
     height: 640px;
     background-size: 100%;
     background-position: top;
@@ -84,33 +106,36 @@ nav{
     position: relative;
 }
 
-.relaxed-fit{
+.relaxed-fit {
     background-image: url(../img/1.webp);
 }
 
-.roses-tee{
+.roses-tee {
     background-image: url(../img/2.webp);
 }
 
-.voglia-colori{
+.voglia-colori {
     background-image: url(../img/3.webp);
 }
 
-.tee-unisex{
+.tee-unisex {
     background-image: url(../img/4.webp);
 }
-.stripe-bodice{
+
+.stripe-bodice {
     background-image: url(../img/5.webp);
 }
 
-.maglione-black{
+.maglione-black {
     background-image: url(../img/6.webp);
 }
-.chart{
+
+.chart {
     width: 33%;
     margin: 3rem 0.5rem;
 }
-.discount{
+
+.discount {
     background-color: red;
     color: white;
     font-size: small;
@@ -119,7 +144,7 @@ nav{
     bottom: 20px;
 }
 
-.sostenibility{
+.sostenibility {
     background-color: green;
     color: white;
     font-size: small;
@@ -128,7 +153,8 @@ nav{
     bottom: 20px;
     left: 40px;
 }
-.sostenibility-line{
+
+.sostenibility-line {
     background-color: green;
     color: white;
     font-size: small;
@@ -137,18 +163,33 @@ nav{
     bottom: 20px;
     left: 0;
 }
-.hearts-back{
+
+.hearts-back {
     background-color: white;
-    padding: 1rem ;
+    padding: 1rem;
     position: absolute;
     top: 40px;
     right: 0;
 }
 
-.red-mark{
+.red-mark {
     color: red;
 }
-.line-throu{
+
+.line-throu {
     text-decoration: line-through;
 }
+
 /* #endregion main */
+
+/* #region footer */
+.credits{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.social{
+    padding-top: 0.5rem;
+}
+/* #endregion footer */
