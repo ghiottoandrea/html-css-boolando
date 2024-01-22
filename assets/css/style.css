@@ -110,24 +110,41 @@ h4{
     background-image: url(../img/1.webp);
 }
 
+.relaxed-fit:hover{
+    background-image: url(../img/1b.webp);
+}
 .roses-tee {
     background-image: url(../img/2.webp);
+}
+.roses-tee:hover {
+    background-image: url(../img/2b.webp);
 }
 
 .voglia-colori {
     background-image: url(../img/3.webp);
 }
 
+.voglia-colori:hover{
+    background-image: url(../img/3b.webp);
+}
 .tee-unisex {
     background-image: url(../img/4.webp);
+}
+.tee-unisex:hover{
+    background-image: url(../img/4b.webp);
 }
 
 .stripe-bodice {
     background-image: url(../img/5.webp);
 }
-
+.stripe-bodice:hover{
+    background-image: url(../img/5b.webp);
+}
 .maglione-black {
     background-image: url(../img/6.webp);
+}
+.maglione-black:hover{
+    background-image: url(../img/6b.webp);
 }
 
 .chart {
