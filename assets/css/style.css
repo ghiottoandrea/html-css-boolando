@@ -53,18 +53,19 @@ nav {
     align-items: center;
 }
 
-main{
+main {
     padding-top: 3rem;
 }
 
-footer{
+footer {
     background-color: var(--booleando-dark);
     color: var(--booleando-lighter);
 }
 
-h4{
+h4 {
     padding-bottom: 0.5rem;
 }
+
 /* #endregion Common */
 
 /* #region Header */
@@ -110,12 +111,14 @@ h4{
     background-image: url(../img/1.webp);
 }
 
-.relaxed-fit:hover{
+.relaxed-fit:hover {
     background-image: url(../img/1b.webp);
 }
+
 .roses-tee {
     background-image: url(../img/2.webp);
 }
+
 .roses-tee:hover {
     background-image: url(../img/2b.webp);
 }
@@ -124,26 +127,31 @@ h4{
     background-image: url(../img/3.webp);
 }
 
-.voglia-colori:hover{
+.voglia-colori:hover {
     background-image: url(../img/3b.webp);
 }
+
 .tee-unisex {
     background-image: url(../img/4.webp);
 }
-.tee-unisex:hover{
+
+.tee-unisex:hover {
     background-image: url(../img/4b.webp);
 }
 
 .stripe-bodice {
     background-image: url(../img/5.webp);
 }
-.stripe-bodice:hover{
+
+.stripe-bodice:hover {
     background-image: url(../img/5b.webp);
 }
+
 .maglione-black {
     background-image: url(../img/6.webp);
 }
-.maglione-black:hover{
+
+.maglione-black:hover {
     background-image: url(../img/6b.webp);
 }
 
@@ -181,12 +189,18 @@ h4{
     left: 0;
 }
 
-.hearts-back {
+.hearts {
+    font-size: 50px;
     background-color: white;
-    padding: 1rem;
+    padding: 0 1rem;
     position: absolute;
     top: 40px;
     right: 0;
+    color: black;
+}
+
+.hearts:hover {
+    color: red;
 }
 
 .red-mark {
@@ -200,13 +214,14 @@ h4{
 /* #endregion main */
 
 /* #region footer */
-.credits{
+.credits {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
 }
 
-.social{
+.social {
     padding-top: 0.5rem;
 }
+
 /* #endregion footer */
