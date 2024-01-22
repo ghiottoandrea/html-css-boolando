@@ -63,7 +63,7 @@ nav{
 
 }
 .logo-box{
-    width: 80%;
+    width: 70%;
     text-align: center;
 }
 .icon{
@@ -73,3 +73,61 @@ nav{
 }
 /* #endregion Header */
 
+/* #region main */
+.first-section{
+    display: flex;
+}
+.box{
+    height: 600px;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* margin-top: ; */
+    position: relative;
+}
+
+.relaxed-fit{
+    background-image: url(../img/1.webp);
+
+}
+.chart{
+    flex-grow: 1;
+    margin: 0.5rem;
+}
+.discount{
+    background-color: red;
+    color: white;
+    font-size: small;
+    padding: 0.2rem;
+    position: absolute;
+    bottom: 20px;
+}
+
+.sostenibility{
+    background-color: green;
+    color: white;
+    font-size: small;
+    padding: 0.2rem;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+.fa-solid fa-heart{
+    color: black;
+}
+
+.hearts-back{
+    background-color: white;
+    padding: 1rem ;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+.red-mark{
+    color: red;
+}
+.line-throu{
+    text-decoration: line-through;
+}
+/* #endregion main */
