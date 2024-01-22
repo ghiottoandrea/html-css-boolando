@@ -1,0 +1,75 @@
+/* #region Debug */
+.debug header{
+    /* background-color: red; */
+    /* height: 200px; */
+}
+.debug main{
+    background-color: aqua;
+    height: 800px;
+}
+.debug footer{
+    background-color: green;
+    height: 300px;
+}
+/* #endregion Debug */
+
+/* #region Utilities */
+:root {
+    --booleando-primary: rgba(255, 105, 0, 1);
+    --booleando-dark: rgba(26, 26, 26, 1);
+    --booleando-lighter: rgba(255, 255, 255, 1);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}   
+
+.d-flex{
+    display: flex;
+}
+/* #endregion Utilities */
+
+/* #region Common */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--booleando-primary);
+    height:50px;
+    position: sticky;
+}
+
+nav{
+    justify-content: space-between;
+    align-items: center;
+}
+/* #endregion Common */
+
+/* #region Header */
+.gender{
+    display: flex;
+    list-style:none;
+    color: var(--booleando-lighter);
+    gap: 1rem;
+    width: 10%;
+}
+
+.logo{
+    height: 30px;
+    padding: 0.5rem;
+
+}
+.logo-box{
+    width: 80%;
+    text-align: center;
+}
+.icon{
+    color: var(--booleando-lighter);
+    gap: 0.5rem;
+    width: 10%;
+}
+/* #endregion Header */
+
